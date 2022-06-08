@@ -1,8 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { storeProducts } from './product';
+import { useState } from 'react';
 
 function App() {
+
+ // console.log(storeProducts);
+
   return (
+    <>
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +26,9 @@ function App() {
         </a>
       </header>
     </div>
+
+    </>
+
   );
 }
 
