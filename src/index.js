@@ -13,6 +13,7 @@ root.render(
     <Routes>
       <Route exact path="/" element={<App/>}/>
       <Route exact path="/cart" element={<Cart/>}/>
+      <Route exact path="/product/:slug"/>
       <Route exact path="/checkout" element={<Checkout/>}/>
     </Routes>
 </BrowserRouter>
